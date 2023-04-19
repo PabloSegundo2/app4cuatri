@@ -1,0 +1,129 @@
+import { Card, Title, Paragraph,Button} from 'react-native-paper';
+
+import React from 'react';
+import { StyleSheet, Text, ScrollView, StatusBar,Searchbar,Heading,Tab,NavigationContainer,navigation,Image } from 'react-native';
+
+
+
+
+export default function App({navigation}){
+  return(
+
+    
+      <ScrollView style={styles.scrollView}>
+          
+     <Title>Filmora 9 es una herramienta muy potente en cuanto a formatos se refiere ya que permite trabajar con videos HD y 4K, formatos que en la actualidad se caracterizan por tener una calidad sumamente alta. </Title>
+  
+      <Card>
+    <Card.Content>
+    <Title>Filmora </Title>
+   
+        <Card.Cover source={{ uri: 'https://i.ytimg.com/vi/UWJSBQC456M/maxresdefault.jpg' }} />
+      <Paragraph>Crea Videos de manera facil</Paragraph>
+    </Card.Content>
+    <Card.Actions>
+   
+    </Card.Actions>
+    <Title>Pasos a seguir para la intalacion</Title>
+    <Card.Content>
+    <Title>Paso 1</Title>
+        <Card.Cover source={{ uri: 'https://lh3.googleusercontent.com/fife/AAbDypBmrU-aZ6V4Jz17JRFrLV6HOJsVrMvb_55r0Nv3dZdIGwwVln07m_JyWVjX-xOqmaTbZSMLQCQUmvz2irNbE8pTDvrp-XnW_0gzpuby26jcID4LDlJ-n0BkBWiGauSB0j0FBl1cJu_4FxZQX__jKkGZRAebfClJDC0NisAOnqP_lkzB-xaot58sb5t56E6xAUCcPqIuL1Dg5xsF-G4XJ3W2fnleMPdj39jPJ2jzkrvur6iMRwTNgjFzYP62ZzBfsnN_PZ0IaRDR81DX4jzZoujbpMmSmsIzsZK-dRWg7vnqVN_ima6nI9ItRG7A6TY7b7utiYImPjevUN-x7atk8RXY5oex9OpYJIvAkvh1vsnGUGQj18HQwyIrH0ExiDaPt2kljHYYPn70HCg-v5jUhfG3EnbWOGDD8ErMrphuqeT0PRA6iVwjbx12B4sfvxW5FjsOqM5BT-K1fOOblGgoM1LoO2RLyoCUNE_sIeIDt-W-jQjgtmvwQVTMvDdlfXY0IhNxnLp7naOCr7X3N5elRsvnZ8WVWmzSf4sFrxZR_Qmq6KzhKuoqIRmdGX33BOXgAivdURDOk_c8hE-RmOcuvMTFnyHgDYbynTeYBYkkp2CdfolNerQ3b--E_DD21hsM3MClmPt0qVSHmRtnEZ5Chv7Tup2mLPqfsWm9ZKhA_PTy5RKILZuUzZirXNzE-5HYxWBh2t6OGQNocVfmJ-z4_GJEQxtv2-BxUoJszw8njG7gKxUTbnsfSon8fh3J1IIvTHtODDvTsf-X6N90pzzPLo80-p_F4sqPnBjidhxkbblrDDs3z9WdtFqUw-wV1i4cQC2CKRlNV835j-No2yS2SN0LW6kKcMHVqljeB0qL3jDJRXQcKRnG9x2hi0G0adjRg32ghfkQj5MZIrhPW6y1O2R-YFuqhqC7R0wtd5S-OWLoAp87vjfkkhFuzLopd3e6591u24QSBqT9GqxFbb7Q_chiDsG-27AILZCCa0tAJAS0iGqXg56LV3nTeZSYG_x4tQaRuxUevKFtn5PSmnxWRI2o8lPN1ZVIkagZ4UHKPRE1WXQzTdikfYCxkequdhaQ3_jBxnSLTn1-0ptQn1NgmU2F6tJrSFYC2SK23qUHbPV_mVToBn6J58TpmKlExgnBG5VZalEk764jkLlZ1fVwef7QSVHq2wxy_xKvgryT1BczuYVNrXf74i7Tf4q_v21IaAcJAef00JcHg4yIXGCC2HlgIXre0s_Hm3YHMrn4JZkCrV9OjBfvOXyMFwz1bPS4vSPghN4vCEPV3xkdXaqehN_S3KdDYPqZ2tf2KW-Z8_J2X2LI9JwjyT5-IKNWQroAk93FzHJu4At1-vg2aK54a39iSI9hKPXHaRGW6ksp8q1L8uhDrFFtbHo25zcT06n2Uu8J7ZQKnwJ1IYLlmfCsk5ZHg_sxHH-4hOxyHcP_0UiDh2bH6z5UusMaZwcccml6JqO4unBdN33v2zpgBkG6OEY2flyegdfy2spn60cYdfUgHTraJ689mAUh-un2dgTSX7ueZp80R1bQdSxBYqK1ZyLEZdARI82tIS3PWe4ZnBF8tED6n-p3QHBX-oX5jIJCB11y9XqvzUNGB1x9q7V9Lx0RMjAN8IalXWZxivxkAXGwMnPldiSK9or3Dz7OQDSYemnb4dsYPtDfJtVFA1lftjUJAcw88dRv3zopEVdVH_OOa5HIgYHXvdL8lf3xhs9tfFBjs6cH3WpV3--nc_4hI9L_pzGHFZ5UOIHpa0WjRNmJJBRPNOJyEtIBHaNv00UzlGduNC3jUcMli5ZCRzhvM01P7ZoiLVWHTGDjqL4F_6I0g6Q7gYzqx419Y6bAPrbwMy4-YhqCDDP3rFjQVk624nSdgyDe4TtqIxvWJRP7T6SSGHKiTN2N9Ck7V8POcJXRUzm3H3M6asap5DRgu2yW5G5F9sYSlBEsrK8SnaS2HWE6m2w8Nwg0sjD-Yt_PKZMNxw6pO9NKUlxA0HBfjEHl9kXD1oX5SXdBlABV52MysTfI4TF4RCArJ57MHhYv8Pwbx8yiz6S19IgPn1zbBjaXH7II0G5GYxKCqKMJvnO2_XOxJF9JAxf-gHOR5BskMOetLb7i6MuksDd0VsZgPv7AF_nuz0WCDb_GjjCl3JA_WPY3YxGoMX9EBbp1OtpTEz_zAzWi590ZDis7TMOLnK8ftuqjmEddTs6Wku1T_n1xSNOD3ck-plrhuZKfsOtOUjnkXWaCXeHxyTcKvY62mC2Bh863wUQZAXFZGjp_U3rpmiAlJrsHp3g-qkd0SAx7p5rbbB-HavFhFF8jZ7pmRkhhyvK-8hXeXfaAPYq66SU2ukPwieKrPscs-Ooavb3bREOxgHv_c_9EC3IA1--N9Gb7fDQA21_yl2y9x2mpdqCCJiMbAGQsCnpGCtylVovE_6ttzImes_nsNzr--POyibLru8juKvaqgOY0d43kU0LFoPZZ06iSoOCwJ9-b1r3nvjqZAcTydnFtCo2BlZf_zNQy0MONYTrUtMmu1l9g6oJ_DwAaz6Tg5Ulgyto-wENrTB1UEOALNWbJGe7fv5-WeQvC00MxNSkQOKalafbEOsCZL4Ynp4e-GWpQ9nT8IyAixpeI4ahDTwX6Kl1-naXAbd1Lo4bGHcAfr9rNXsb4DBbKmxTZxfBwRT1p777fhM_2516k4okFexII_JZsEWs4jLnPtLF1sB7oEu8EkuytV4j5iQgI7Vk0aV6febcDF0KV5MH89lloQxfyX3pA3bW_g1HC4Dkhk-2PULkEeGVkVmt6I_3AnvCFH2IUUhO0GF7rOPmNc5VnMT2z5oWFFjp2MQDOKu_PJTitKdnbEnq-N9QaqaLiIEq3lawqpmZw9ESc2jEp0UHIToT_a37vWdL01cI4s6TnG8YDFsNN6MMam4ESGn6ElGHg8aGg2Txd3XeC3jUU4Iofb4X0Q0Y792Ew4eU4f4N3Jhk5vK4R4BQ--UatTY9mvY-yvYKymM8tbjt9O1NFjeLlxu4oouPh9tizARytuvVZfJWmecYiyHN-9FG09TjJwRLn7LWZEcYyMWRGNOCB__g9iZjWr7ykEx4b6VgB685C4iXq4kWNutDllikUjU-ryKN2MJYo7OcZ8Yy8OtXiGvQ-Wk7aRfV85LffGOMDyFcFogGjDYcHSM9kY4DO0cTDCVPK1Puwk6yehb6oJiuqewwDHXBKLSVPO98um25gt8F0nPIqNdqQH8JM_okjVZ7fJX4K20h4lU_qoXfUp2WBYG4kpKUHdXNKOaiqhcfL7mggDrfAHA03SBmx24KkcodMlnHzUOOC7RhHH-8xSvD3MreKRD3kt5VB9nuqyVsncFRNfzJobUMJmkbzMAuA8kRuzagHQ7YUusE5yms2fpMDRMylhZMUY-D5ZU2t1jDkYzOEzSowVhxUlEQW6q8BEV5Dx2kpz-s2limOb0JcyBiEivpRmXifElyzegnRcPXxVxXWPBC2MFddlJeE6hEDwXDSEEPJjUIERv9QKqVqDlodzMyoSw3zdsXIA_0NiMaR5X9EGzTvkf79NPYeL-1AYwozhT7W5wZ7nPb-Z4wlYmj_lPro0k9gEpcG_oxeufJsjwH1kZnHIhzysAOpPw6TvW_VZ3emdY0SB0YQJIvfIdJV4Dattbs2kjm64It5TCEWI_Krq37YXUSXFLsf409NzCsiClzAzHozjSF1K4T-muNCk0eJ2xtiZd-CRpBMSov-SZJKENYT1featAPgJXOSVtToF4XYa3BX8RuYstR1ryjDGF4yM9bAKhbxuhBuH2_zzpFwVdQ8c0dZgyMnSr04N_qIBxPAW5U1qkMVCiZPVqbqNwpNuO3W_0KnTP7kyrt0Mh5TXIflxcJcynjOTuaPJxruZvjxGjYGdDlYFLUSOSWMU7MTx1YGn7iBpzrL98e_Y4V0gMidQKmWe4x0gXgDsawrEnBNqmOiluo1vSsPnSXdV7wGXcoWWBkdPdhnkRQycftCHsKHEuCp3A5d4MRfcC8jzkSosrN3WqCS_mxWMCDcgCJZnNAQVjDtW9ca8lT7iPrifa6o_CSMj1YmrlH-vVIZW2PRx0-5i6o7naVTyBKLe7VdohU-wXJ-SA_4ipNvqc0QZzvvJHBv_faPCqWiCBTY0_ETbGDlH6FA3mOR6g_u1_PQHcd4HvafjXb-A7hgnyWk-XbrfK3ZNB6c22dvqVn76v6ATqPv0hglAMcu-kH37EsfBtwlisnxtAHfMVnftz35MryOwpZaFaCQu3_Hv-SHRibAxK5I3DSTG8HDcqqmakM5PPyCNQMBkSqoPTw_091p1auELzRBt2KvVWoj0ysWSqAernqU2-RzHk3Nup3cx7r8SCXngBz3gwE8oUlcbu_Ln1pjCyooLmqekguViKKGX6h6Q6yzMzTi7p6fAgDbkrAPwbqq5GNibY1u1Z9Mpe-kHGH1YgcJ_onia3ipNB-j20Y-96HlHPAXaLNDoev8sFkRXUC3tyVHSSAjF9QTtL_pAxJk8-fDAz0uJNYKUYZwCkcnCr837I4CR_hKlMuT0ZCtT2zWdOs5_VCguvPqieSKYD7VQ3vAe8HQ9We45SgQ9BUoJ--hKJCBfEZJZDNlorrU7aRkdZmrsHGNVf77T8KTfHkLQDN4GDoKEnMpd2S0H1sEcagPndDdfOvLqpOdW81X4kkk7Y5ydE2QVHv1TlLDQfxjQTkZ5zbbi7EDne5_JjhUDQ38YlyZ436IDSgO-UPyBYBy1Vr4lSRK_2vnNUJ9I-V7B5NytP8hfWGBLTKi-hZN-xjxJ64hIOsA7bS2Qqbo1Rfre9poWTyxjtIGneJMJkzEu-n78S_7u9PVP1vsVI5AfBvuVqivRB2xlxvuI36W8-TPivA6E1hAUEhfFMliYniGL18f-4g-a8_s_bZZOSOXY96qTelsFScyal8kNFd6XybugEEUrinV0IbYS4hbWwuSRPKVZNfAjyDyFdwmiChmOUupmO2TAeAEP3N_815K5nvlxMv0ZBc7oT5hwV6MNvqfTZ9ooiShUSXYRRW-WEzw6RQvMwlBM_M4SNPrCqnYe-0zowpSxa6LtDEqFd70Q9BTold8beab-Ix7IKJSRZhqP3DR3EMCUHIIPzQBX1yBYl7kgBD7faU7Z6aAr1GkIl4uXW7vXgsEw3RWGRUSvtJJkFn5IFVD9vrSKKF2BKSGe6booZ7NIbTXTH_MtSrAdCI60cKK6M7pEH3RHTHGOVedYVxg7OLQg2Lr-Mva4cpzKDFaJOXJyyamFYVP4zM4OMyKxr5nXKt3S2kx7ll3kqloAmBx04CSpyMMHtXVgjM7K-sSEEcFi8ZcjrbrcWFlpbJoIJyhv5e2s33bgYrsojxhUdjDg07Imfe_yOfKPW8mRZP5X8nwYlh1Q3aR8DlcbcN9NUED9IndUT8Rlgn95MwMAVU58oe8Vi1eZAtAP3e4Y1yMfU8wdQOJJE3hpBx9FVWECAQvSYpz3MS1WF42xGo-oxIH2mt2mZRYmDq4gH239fhiujAwk8V4vr0c75jQldT3KRCzJtqoRXcZ4dqeQFGegPIlsqluiLlyWi6Rtks0ucDWC6C93qiUZ7z0-870pwHEGCtZGo06_a_0QuU-8hGEBmLK3WZsA7Q_wFYYUoZ269iJ53AHxUl1MKH5qqXakN5nvl00e5raDBE-Lpr3XkOSneYb6g-Shz1QxK9GjCuQxicphnGW6U4SCREqgMH4LZMqDJDMsCPE6muX1NgGky2NLL79VKJKKcPlStXSjuNaWgGVRAgxIFl3dGqwFUaMS2cAqiaWPkEL11FagFDuctW1laVFlWsHWtouyFrSXYsSNXAgDh6im8-NW9Y_LRJOJyDLcajheCOLtweofbfAiGmQmDs-3Nty1uWNbzZS7MChYLJYmkIu147HcAwaTV6056t0qffv-85swHc9f6Quf6fy2SmMyPa-Y3jSLPHvh7gJY57drqFI39L7BfKFCblCBR646rkGzmhynC-wN6NPGYH6iArvQIKZyDu8crjxfcJZNt3VYGvZ9AN-HMrq49rmS75v57nOBU5HzWVEq4yhXwJ2URz8Z7HyQJ52R0V3xdqw52DciZwdi_vwk8sBMns9UwIkJMd6yH_khAed5FqUo3mhzpqMqe6JZUsg6CpPglDrtRfqyUZxH-JJne9v9eyqCzCBTdeHm66P40qRyMG_OMi3nAkaT7aHq03Avd8ax9hVHeNXOaCHj-1ALtYd-KMpR68SsHI4JKhozzyKaanDVt2V6JFtYPZQZm-AnJFGaWmpJsd1npi--BGN_paKsmass3PJWMbFjHZ08JsMGlh14qZwZtcAjlCFlBQHfq7HIjpxyXYYHrSD8Xj1T-PiUcPvygQB-EC81uG4mV80pWUotLsRK3V2s8Z-LNCqNPYJZjAa8i6VBN1dKrqisKy040_CTPTXN6R0CtvtoLMYTjxI6GgMDwzqJyVJzxOUOSriR_iGDqsd1F274BPOWvvowf8R9NBSLz9hyCg3D5GrNnJ3zZSpOZBht--hPmkmH0M85S8NkkdELbos8r2b6ujzIOl85cLWVubU7gMFBYuGZMuvTNdvbnDQkcM-p8hT4FaLKp7V48EiJai0bSNxRHFuXH_w3NNwz8TrKvAw52AdnTC_A1J5ahv4TSkzPLZBqusg2wfUs9Bx4THWqWlBHyHpQ0EYp47e4RJ11qRMsqfOZXKGOfCKjh4GGJIamJqF6F44NWAakebkDnUNChSCgV-UF5K6H-1s2BgXp8RYSDB8_aZUBU8yz6eWm94C9zBIoDA0wx92uvQgbbLIphX6ezPb1P4HrQ_zuDB40liRkPeqiKFJeKKarUYnPopkt8NMrd6YghO-ay2zDdPjakluCQGGbNe-cj98UMNHp-u0_Y1QK7H_MQzlZAw6fbdiERTyNv9CkveBrCOVS3jYF0kNmnb9359J9zeWxcwMOzo0YsOS7Fchvi9HpsWoumOpmztOA1rA85-7HlAMBdsjkZpgHTphJMLC3oJ4XZNp8ujuhRryFmEFuSF2VftjW1qNnaDa3powKdV17g-o6Q3KR_tKSjEnDQ_f1WUFjHg3kvdJ2AXMUBbBO5umjOLQ5xSOOriZix17akv6IQ-TIXv6P22ldkxnhJGVBdOYrq4vSKa4r76wueTmS1MFUpYvsoslJT57d4Q_JUsw4Kovb6L0eBTNpxYiVLV7IkKAZB85jZshZe66bJNe6QnvPfD7wqHm76Z0XuACVv1uv3NqQaeal583cO4QEwtVHpbqFq9IomzXnLzlk1bQjJFlkoeujpPMyab0xDO4HX3fLG9X2bx1ZKu3MVAjJsP8Q-nFw-sucPEy50I_Lvh938R6FFAtZcXq-NZYwdQzgTvI2-7gCY3DlODCehslVePbQnNKMfytdZOWOdJjrLosU80At7G4muIvKMrgfeIaUcYYk8OqpcHZvyGpDSnnGnH2U9P1YQaOW1Dhec7D7JJGD6HPctglh7ub-wrkXsfVAjIGsdum9CDTg3TnZCDVIZB9Yis4c1H1BRcHdKuCNfMQI00NszqoO4VXnD-kR6NVbgyzb48dmUFwvMK4AEnVvx__V6kKhsThWz4zaR8aSbf-20C-qQuZBzne_7K8AfKZQAwFdMkoiBPLtov73AK6TSfmwBLLlDbbB40q_tyUS40Vf_YORLiu1Vqwa8L4N56YW407aClqo9Boh7j83ZXiEW5yzBZ34VDLV-t1HkPDGfTKHUKfELwd_ttexPLzu6ia_L6yByT6haPvnqGf3Wy6eTziy3RSlmaX7U0Ietw-ZBCS0YXaAB3p_tJlzDMOiUAAQmHiCVV4WMm0IIBElvWLovX7avO_PLg_IWYIHqjju--2gWTTrU_8obSbMUtSZjOVWNDtAX_EwZ9dV5tescQlvaA-Kl9j5DLCtStdB-wi0SWpI7milLJy5-kGQujaq8xnUdxItLlt8MJ28OBdANT5hqBQRHD5peHTagjnRStGXLAH_SS0K1o3iF8O-1m2ZadA9Fi76gs_aMl7qasRmJ_bQV0TJBiCSVcVki7t-dxKQ3T6Zvhf8fd62GAN2_sMPRynAzLisYolkeIFWy58n2ywYkQ5gmDCweYzE4M_O3nqWl9dhQ8lB1MMSlRf_nnA9t2Qh-zjQzg35pzKoO637DXJJax3PA4VAbFETTv1Tlo6MEsGpy3tVnxtSP9dxsnNJYii66vM5YOvLt4GVoMnYCucF5b08v7I7yA_vsXzODDAUNY2Wj9rhF4WOF605_o9ZCPEA0bcAKZ-wfTymrmWyQioPOCQXt06HgVKMmuLIJMoud0bMXnt5Qy4Km0BrLKOppAw5DjvFkKoFsRHiucj1HYHB3_I0xbWpRCQARzNE19Du8sPOyO-5u_SVuWDIsmcQnlrPwJJpDxav2350ZCeY7j0vp56JWaTt8OOTYWIMzRhzKPI6BQOLouTCxcL5SscAkRf49j2RpQRMgh4x4MWReIQgEF1izvv7F6bamFxfa4V5OVnRfupwVWj_-SCbmnz9rWqPMBqiYCG2iQ7n9wbbCacmYedSWTL6hNdmHMwf60CraPaE1-RFkMfUhq54IqLGF9DHytD_3H11aGDm3xmSHKY6f95y-S1vNtizLdxw6tTXI5DE3yooiBGpalxcJ4WXx1iRimLDTSQ7dYPfj6_jMwpwVe8dOn4QiSH1CE-dN_R4Nduax5QY2rxxKheFIv4N5sSPvcQgmGcgR9gZkcr_tN8YNO3Uq2AUNKGOYkKC6gd06GtcdRreYLr3BZSY9aJPJcfNONHdzwWj-4EnIPhNYatxZ0elf1s12ezRthckBMx2sBsLJv_rkNRT2StIHQt6-dayZXlTXrl6-X7Wzmx09InyAtOsURc0gFvwGIAsTmxNLyARi93XOJ_hJ0dg5BcteI3SwIFMv8_c3e0T8XhaakGpTk5NP8U3wx7SGwbhrVMVhdb2lkitIspmubxW_W4bgkjSNk6_18xrSJWQOoCHfZocnJhFBMtPMe1-gGLXVyzResZKaw0lKQXmkKm3A6s9ZKQi_MSyTvd_KESxKO93HN09gYShw4oKwsNZe8CNvAAQivdCF5obvgwSm8G5N9oV9HluajQjtVc5QOwYNQmuDl1ARl3x9x3to_wFbGXRuXIFCY2tdvt3dvOtqiDykhf0aogo-mur0Kr1cpj16t0Hr8-FutjDUAWYiQpVScprvsph4FEEEC-Hdr3QhwIXELpYSXd8__c8PXWWFSVPGCNPvxEgza04GDDH4Uc6eFGDjcJYQuUNN_GgsGGGtOGMBTSByhoBsEtnlL9ao9U0wQTgJuhE-ugmzdCcTsnVqRykReWkmeBIQbKDpEyUP-MO0OEFSnTx-6Sm4cHWqBX1Qf6ej8TvsKQlx5v1M6bJvF-Ip_OTB_1PrQYTQneJYKsn0OfMv5FNwbnpcVh6fie4aNQrFTcNIin551Xfx69lCdAZpiXv1IOi-6Jjs6XLU_lKDm_tTHvqJ9Z1iINKf89FabokFJqUvOxAWD8AMem5gD9ydWQwqgpoqy31HHaRiPBKpSnjZ3NRDWpkIlFH-AWprryZ7UitAKnuN_MBgbSDti9ygyIfLm4TicAOtiuuHZmPlLgZQKjnKPg0yT8b2CDFiXUZ33vXvwhzjXRb46QAKPeTSap3BMQj0WhBJYm0hs-5fcHgKTRcpiJ3N3y9uMJ1WCs5csBCKz66uCfGoPoWBAE667_FZwdaVazrp0hrfA1ZLF6nAUVacS2tPVqE_g8vVQItd5rP1BxhlxLD9BVDLuH86RNAd3AR8NGf1i_28LqgBp1TeX5oWgHSW2YNrWe3ZgLQZFQpLki3BKG7s71QBL2p5SFoWuChVvY-oa_TBiX2d0tWsPGg09Nock1ZYKjde7WGm5bVqfdNIL7lcmhrhya0EasXP3PH23kfu3B4NiBTDMoHlG1mf34iSmbxlQ3SWH7Y0Xefoai24PXj8VoG37lA6VTnIophUI_b-CkkeAmw-CjmQjtA3vJVmgTLTrIhh_gRlsbFAcQuC1roGDcuoUdCDq_XaOmkYSlnXexcWpROY7UjBAdmLLnD3jKofhp5_FcciH7klloTurAKggqBek0JUz1NOMyRSil4mnxCYxlJbb8saJTNebA6RsJDq_w7E5Ku-sUZTqbOFfDyYTyYJ31ud3NudWmjh7MDFAbrETVUGek2zDIhBzwigLTeVs9hiBzUIgaghUGkW9hby873qyP8Qd4yrLVXmPK17zN7ZcauTKmZcOBKLKjeut82oBkofifY-LJDOUHHgyYQbaPiROfWBMeQg4QIk0faYLmJRfIYT8byZcrjjWEPa3DJB7CILAaQSvGuKOwfKO5eDp1RIz81dexy9kBFtrTnxU11e1iFJKzVqnXmX6j=s449-w449-h252-no?authuser=0' }} />
+      <Paragraph>Para descargar Filmora 9 premiere en Windows es necesario ir a la pagina oficial el prgrama es de paga pero esta la version  de prueba
+ </Paragraph>
+    </Card.Content>
+    <Card.Actions>
+    </Card.Actions>
+
+
+    <Title>
+    </Title>
+    <Card.Content>
+    <Title>Paso 2</Title>
+   
+        <Card.Cover source={{ uri: 'https://play-lh.googleusercontent.com/ZMIX0SQUrGpXdkSomEyzhD0wkOWOfYnn7UMCTszHm_4_xD095xfduk0W7cdsRy80W-mV' }} />
+      <Paragraph>Ejecutar el archivo. 
+  Una vez descargado el paquete, puedes 
+   ejecutar el archivo .exe haciendo doble clic en 
+    él. Para abrir el asistente de instalación
+
+
+ </Paragraph>
+    </Card.Content>
+    <Card.Actions>
+    </Card.Actions>
+
+
+    <Title>
+    </Title>
+    <Card.Content>
+    <Title>Paso 3</Title>
+   
+        <Card.Cover source={{ uri: 'https://www.redeszone.net/app/uploads/2019/02/Filmora9_review_3.jpg' }} />
+      <Paragraph> Una vez superados estos pasos, 
+            aparece la pantalla de inicio del asistente para
+           instalar filmora 9
+               Te pedirá que aceptes los términos
+           de licencias Para ajustar las 
+          configuraciones de la instalación 
+                hacer clic en Siguiente
+                </Paragraph>
+    </Card.Content>
+    <Card.Actions>
+    </Card.Actions>
+
+    <Title>
+    </Title>
+    <Card.Content>
+    <Title>Paso 4</Title>
+   
+        <Card.Cover source={{ uri: 'https://images.wondershare.com/filmora/article-images/filmora9-split-cut-delete.jpg' }} />
+      <Paragraph> se instala todo correctamanete 
+
+ </Paragraph>
+    </Card.Content>
+    <Card.Actions>
+    </Card.Actions>
+
+
+    
+
+
+
+    
+
+
+  
+
+    </Card>
+
+    
+
+
+
+
+
+
+
+
+</ScrollView>
+
+
+
+)
+}
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      paddingTop: StatusBar.currentHeight,
+    },
+    scrollView: {
+      backgroundColor: 'gray',
+      marginHorizontal: 20,
+    },
+    text: {
+      fontSize: 42,
+    },
+    
+  });
+  
+  
